@@ -50,8 +50,7 @@ describe('KORD Guardian Service', () => {
     })
 
     const actual = body
-    const expected = { errors: [{ message: 'Could not verify claim' }] }
 
-    expect(actual).toEqual(expected)
+    expect(actual).toMatchSnapshot()
   })
 })
