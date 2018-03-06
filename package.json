@@ -1,5 +1,5 @@
 {
-  "name": "kord-guardian",
+  "name": "@kord/guardian-cli",
   "version": "0.0.0",
   "description": "KORD Guardian CLI",
   "main": "dist/kord-guardian.js",
@@ -17,19 +17,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meta-network/kord-guardian-generator.git"
+    "url": "git+https://github.com/meta-network/kord-guardian-cli.git"
   },
   "keywords": [
     "KORD",
     "guardian",
-    "generator"
+    "cli"
   ],
   "author": "JAAK Music Ltd. (https://jaak.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meta-network/kord-guardian-generator/issues"
+    "url": "https://github.com/meta-network/kord-guardian-cli/issues"
   },
-  "homepage": "https://github.com/meta-network/kord-guardian-generator#readme",
+  "homepage": "https://github.com/meta-network/kord-guardian-cli#readme",
   "lint-staged": {
     "*.js": [
       "eslint --fix \"lib/**/*.js\"",
