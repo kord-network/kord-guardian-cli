@@ -44,6 +44,9 @@
     ],
     "silent": true
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint:staged": "lint-staged",
     "build": "rollup -c",
