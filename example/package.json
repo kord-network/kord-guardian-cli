@@ -1,0 +1,38 @@
+{
+  "name": "example-kord-guardian-service",
+  "version": "1.0.0",
+  "description": "An example KORD Guardian micro-service",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 8.9.0 < 9.0.0",
+    "npm": ">= 5.2.0 < 5.8.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "kord",
+    "network",
+    "guardian",
+    "service"
+  ],
+  "author": "JAAK Music Ltd. (https://jaak.io/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro-dev -p 7000",
+    "start:prod": "NODE_ENV=production micro",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@kord.js/identity-claims": "^1.0.0-alpha",
+    "dotenv": "^4.0.0",
+    "micro": "^9.0.2",
+    "micro-cors": "0.0.4"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "micro-dev": "^2.2.0",
+    "request-promise": "^4.2.2",
+    "test-listen": "^1.1.0"
+  }
+}

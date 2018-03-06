@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KORD Guardian Service Should return a KORD Claim object 1`] = `
+Object {
+  "claim": "Your Name",
+  "graph": "0xEe078019375fBFEef8f6278754d54Cf415e83329",
+  "issuer": "0xEe078019375fBFEef8f6278754d54Cf415e83329",
+  "property": "profile.name",
+  "signature": "0x2d2a2b63f14130c09e092d5c8a95fee1b32ab0b9f927d7d76efa8b38450342342fba919ce9ff01792a717ea3686fcdd98bade8672ff9ae540ef3e2d284a4445500",
+  "subject": "0xEe078019375fBFEef8f6278754d54Cf415e83329",
+}
+`;
+
+exports[`KORD Guardian Service Should return an error object 1`] = `
+Object {
+  "errors": Array [
+    Object {
+      "message": "Could not verify claim",
+    },
+  ],
+}
+`;
