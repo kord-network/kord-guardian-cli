@@ -11,12 +11,12 @@ npm -v
 ## Usage
 Generate a KORD Guardian micro-service:
 ```bash
-npx kord-guardian generate service
+npx @kord.js/guardian-cli generate service
 ```
 
 Generate a KORD Guardian environment variables config file:
 ```bash
-npx kord-guardian generate env
+npx @kord.js/guardian-cli generate env
 ```
 
 ## Contributing
