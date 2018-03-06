@@ -20,7 +20,3 @@ node_modules/
 # Release #
 ######################
 dist/
-
-# Environment #
-######################
-.env
