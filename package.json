@@ -1,5 +1,5 @@
 {
-  "name": "@kord/guardian-cli",
+  "name": "@kord.js/guardian-cli",
   "version": "0.0.0",
   "description": "KORD Guardian CLI",
   "main": "dist/kord-guardian.js",
