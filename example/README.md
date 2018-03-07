@@ -1,4 +1,4 @@
-# Spotify
+# Example
 
 ## Setup
 ```bash
